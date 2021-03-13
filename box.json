@@ -1,0 +1,27 @@
+{
+	"name": "PresideCMS Extension: Website user page visited logs",
+	"version": "0.1.1",
+	"author": "Khanh Nguyen",
+	"directory": "application/extensions",
+	"homepage": "",
+	"documentation": "https://github.com/khanh-nguyen-pixl8/preside-ext-web-user-page-visited-logs",
+	"repository": {
+	  "type": "git",
+	  "URL": "https://github.com/khanh-nguyen-pixl8/preside-ext-web-user-page-visited-logs"
+	},
+	"slug": "preside-ext-web-user-page-visited-logs",
+	"type": "preside-extensions",
+	"projectURL": "",
+	"ignore": [
+	  ".git/*",
+	  ".gitignore",
+	  ".twgit_features_subject"
+	],
+	"location": "forgeboxStorage",
+	"devDependencies":{
+		  "testbox":"2.2.0"
+	  },
+	  "installPaths":{
+		  "testbox":"tests/testbox/"
+	  }
+  }
